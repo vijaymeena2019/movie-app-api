@@ -1,0 +1,4 @@
+{
+    "name" : "Express Demo",
+    "jwtPrivateKey": "vidly_jwtPrivateKey"
+}

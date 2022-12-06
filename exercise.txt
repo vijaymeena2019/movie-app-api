@@ -1,0 +1,4 @@
+mongoimport --db genres-exercises --collection genres --drop --file genres.json --jsonArray
+
+// you should remove _id in json file, because this _id  is expicitly set by mosh not by database
+// so we will get error when using findById() , it will return null otherwise
